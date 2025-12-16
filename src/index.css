@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@media (max-width: 670px) {
+  .hide-portfolio {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}
+
+
+@layer base{
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+}
